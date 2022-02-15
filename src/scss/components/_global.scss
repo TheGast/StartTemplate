@@ -1,0 +1,49 @@
+// Обнуление стилей
+html,
+body{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
+
+// Глобальные настройки
+
+body{
+	font-family: "zen", sans-serif;
+	font-weight: 500;
+}
+
+img{
+	width: 100%;
+}
+
+.site-wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.main{
+	flex-grow: 1;
+	background-color:white;
+}
+
+.container{
+	max-width: 1400px;
+	margin: 0 auto;	
+}
+
